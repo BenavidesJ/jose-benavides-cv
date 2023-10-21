@@ -1,0 +1,48 @@
+.logo-bullet {
+  display: flex;
+}
+
+.logo-img img {
+  width: 2.5em;
+}
+.logo-img svg {
+  width: 2.5em;
+  height: 2.5em;
+}
+.logo-img {
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 12px;
+  margin-right: 25px;
+}
+
+.logo-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.logo-info h2 {
+  display: flex;
+  margin: 0;
+}
+
+.logo-children {
+  margin-top: 1.5em;
+}
+
+#linkedin {
+  fill: #0077b5;
+}
+#github {
+  fill: #333;
+}
+
+@media screen and (max-width: 768px) {
+  .logo-info h2 {
+    font-size: 1.5em;
+  }
+}

@@ -1,7 +1,11 @@
+import { Header, MainSection } from './components';
+import './styles/layout.css';
+
 function App() {
   return (
-    <div>
-      <h1>Curriculum</h1>
+    <div className="cv-layout">
+      <Header />
+      <MainSection />
     </div>
   );
 }

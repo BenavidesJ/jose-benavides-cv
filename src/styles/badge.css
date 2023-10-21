@@ -1,0 +1,14 @@
+.badge {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  padding: 8px 16px;
+  background-color: #2e4053;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 99999px;
+  margin: 0.2em;
+  font-size: 10px;
+  font-weight: 700;
+}

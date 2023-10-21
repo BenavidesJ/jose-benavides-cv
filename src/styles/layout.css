@@ -1,0 +1,77 @@
+.cv-layout {
+  margin: 2em 4em;
+  display: grid;
+  gap: 20px;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-end;
+  align-items: center;
+  padding: 0 1.5em;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 1500px;
+}
+
+.statement-text-wrapper p {
+  margin-top: 0;
+}
+
+.skills-content,
+.languages-content,
+.work_experience-techstack-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 2em;
+}
+
+.skills-wrapper h4,
+.languages-wrapper h4 {
+  margin: 0 0 1.5em 0;
+}
+
+.work_experience-wrapper {
+  width: 600px;
+}
+.work_experience-wrapper li {
+  font-size: 1em;
+}
+.work_experience-bagde-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5px;
+  width: 400px;
+}
+
+.work_experience-tasks {
+  padding-left: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .cv-layout {
+    margin: 0;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+  }
+  main {
+    flex-wrap: nowrap;
+    height: 100%;
+  }
+  .work_experience-wrapper {
+    width: 360px;
+  }
+  .work_experience-bagde-content {
+    width: 340px;
+  }
+}

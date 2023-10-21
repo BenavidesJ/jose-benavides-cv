@@ -1,0 +1,23 @@
+.personal-data-links {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.personal-info {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.personal-info_title {
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  .personal-data-links {
+    flex-direction: column;
+  }
+}
